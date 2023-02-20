@@ -288,7 +288,7 @@ html{
     font-size: 23px;
     line-height: 47px;
     color: #fff;
-    background-color: #12b975;
+    background-color: #05d2fc;
     display: none;
     height: 45px;
     width: 45px;
@@ -318,12 +318,12 @@ a{
     text-decoration: none;
 }
 .btn-primary{
-    background-color: #12b975;
+    background-color: #05d2fc;
     padding: 8px 35px;
     border-radius: 25px;
     color: #ffffff !important;
     transition: .5s ease;
-    border-color: #12b975;
+    border-color: #05d2fc;
     font-size: 25px;
     font-family: 'Roboto',sans-serif;
     text-transform: uppercase;
@@ -338,10 +338,10 @@ a{
     background-position: center center !important;
 }
 .color-green{
-    color:#12b975 !important;
+    color:#05d2fc !important;
 }
 .bg-green{
-    background-color: #12b975 !important;
+    background-color: #05d2fc !important;
 }
 .padding-top{
     padding-top: 120px;
@@ -365,14 +365,14 @@ a{
 .sub-heading{
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    color: #12b975;
+    color: #05d2fc;
     margin-bottom: 15px;
 }
 .sub-heading span{
     display: inline-block;
     width: 30px;
     height: 2px;
-    background-color: #12b975;
+    background-color: #05d2fc;
     margin-right: 8px;
     margin-bottom: 3px;
 }
@@ -395,11 +395,11 @@ a{
 }
 
 .green-btn{
-    border: solid 1px #12b975;
+    border: solid 1px #05d2fc;
     color: #FFFFFF;
     font-weight: 500;
     padding: 12px 35px;
-    background-color: #12b975;
+    background-color: #05d2fc;
     font-size: 14px;
     font-family: Roboto, sans-serif;
     border-radius: 0.5em;
@@ -508,8 +508,8 @@ a{
     text-decoration: none;
 }
 .pricing-sec .pricing-card.active:nth-child(2) .green-trans-btn, .pricing-sec .pricing-card:hover .green-trans-btn{
-    border:solid 1px #12b975;
-    color: #12b975;
+    border:solid 1px #05d2fc;
+    color: #05d2fc;
 }
 .green-trans-btn:hover{
     border:solid 1px #ffffff !important;
@@ -519,7 +519,7 @@ a{
     position: absolute;
     width: 25%;
     height: 100%;
-    background-color: #12b975;
+    background-color: #05d2fc;
     transform: translateY(150%);
     border-radius: 50%;
     transition: 0.5s;
@@ -682,9 +682,9 @@ header .main-navigation nav .navbar-nav  .nav-link:hover, header .main-navigatio
 /* ===================================
     Side Menu
 ====================================== */
-.side-menu .bg-overlay{
-    background: rgba(18, 185, 117, 0.9);
-}
+/* .side-menu .bg-overlay{
+    background: yellow;
+} */
 .side-menu {
     width: 100%;
     position: fixed;
@@ -692,7 +692,7 @@ header .main-navigation nav .navbar-nav  .nav-link:hover, header .main-navigatio
     top: 0;
     bottom: 0;
     /*background: rgba(247, 28, 82, 0.6);*/
-    background-image: url("../img/side-menu.jpg");
+    background-image: url("../img/slider1.jpg"); 
     background-size: cover;
     background-position: center;
     z-index: 2032;
@@ -831,6 +831,7 @@ header .main-navigation nav .navbar-nav  .nav-link:hover, header .main-navigatio
     text-align: left;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    background-color: #05a8c9;
 }
 .pul-menu.pushwrap .side-menu .inner-wrapper{
     padding: 3.5rem 2.5rem;
@@ -1180,7 +1181,7 @@ background-color: #FFFFFF;
 
 }
 .services-sec .our-services .service-card:hover .service-card-heading{
-    color: #12b975;
+    color: #05d2fc;
 }
 .services-sec .our-services .service-card:hover .image-holder{
     animation: .8s rotateIn;
@@ -1217,7 +1218,7 @@ background-color: #FFFFFF;
     margin-bottom: 35px;
 }
 .skill-sec .skill-detail .skill-bars .progress-item .progress-bar{
-    background: linear-gradient(30deg,#3d3d3d 30%, rgba(18, 185, 117, 0.55) 70%, rgba(18, 185, 117, 0.87) 100%) !important;
+    background: linear-gradient(30deg,#3d3d3d 30%, rgba(18, 174, 185, 0.87) 70%, rgba(18, 174, 185, 0.87) 100%) !important;
     position: relative;
 
 }
@@ -1314,15 +1315,15 @@ background-color: #FFFFFF;
 }
 
 .cube-portfolio1 .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active{
-    color: #12b975;
+    color: #05d2fc;
 }
 
 .cube-portfolio1 .cbp-l-filters-button .cbp-filter-item:hover{
-    color : #12b975;
+    color : #05d2fc;
 }
 
 .cube-portfolio1 .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap {
-   color: #12b975;
+   color: #05d2fc;
 }
 
 .cube-portfolio1 .cbp-caption-zoom .cbp-caption:hover .cbp-caption-activeWrap {
@@ -1459,7 +1460,7 @@ background-color: #FFFFFF;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #12b975;
+    background-color: #05d2fc;
     opacity: .7;
 }
 
@@ -1530,10 +1531,10 @@ background-color: #FFFFFF;
     text-transform: uppercase;
 }
 .qoute-sec .qoute span{
-    color: #12b975;
+    color: #05d2fc;
 }
 .qoute-sec .writer{
-    color: #12b975;
+    color: #05d2fc;
     font-family:'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500 ;
@@ -1617,7 +1618,7 @@ background-color: #FFFFFF;
     display: block;
     width: 30px;
     height: 2px;
-    background-color: #12b975;
+    background-color: #05d2fc;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -1718,26 +1719,26 @@ background-color: #FFFFFF;
     border-radius: 10px;
 }
 .pricing-sec .pricing-card.active:nth-child(2) .pricing-card-heading{
-    color: #12b975;
+    color: #05d2fc;
 }
 .pricing-sec .pricing-card.active:nth-child(2) .pricing-amount{
-    color: #12b975;
+    color: #05d2fc;
 }
 .pricing-sec .pricing-card.active:nth-child(2) .pricing-amount span{
-    color: #12b975;
+    color: #05d2fc;
 }
 .pricing-sec .pricing-card.active:nth-child(2) .pricing-amount i{
-    color: #12b975;
+    color: #05d2fc;
 }
 .pricing-sec .pricing-card.active:nth-child(2) .pricing-btn{
-    background-color: #12b975;
-    border: solid 1px #12b975;
+    background-color: #05d2fc;
+    border: solid 1px #05d2fc;
     color: white;
 
 }
 .pricing-sec .pricing-card.active:nth-child(2) .pricing-btn:hover{
     background-color: transparent;
-    color: #12b975;
+    color: #05d2fc;
 }
 
 .pricing-sec .pricing-card:hover{
@@ -1746,26 +1747,26 @@ background-color: #FFFFFF;
     cursor: pointer;
 }
 .pricing-sec .pricing-card:hover .pricing-card-heading{
-    color: #12b975;
+    color: #05d2fc;
 }
 .pricing-sec .pricing-card:hover .pricing-amount{
-    color: #12b975;
+    color: #05d2fc;
 }
 .pricing-sec .pricing-card:hover .pricing-amount span{
-    color: #12b975;
+    color: #05d2fc;
 }
 .pricing-sec .pricing-card:hover .pricing-amount i{
-    color: #12b975;
+    color: #05d2fc;
 }
 .pricing-sec .pricing-card:hover .pricing-btn{
-    background-color: #12b975;
-    border: solid 1px #12b975;
+    background-color: #05d2fc;
+    border: solid 1px #05d2fc;
     color: white;
 
 }
 .pricing-sec .pricing-card:hover .pricing-btn:hover{
     background-color: transparent;
-    color: #12b975;
+    color: #05d2fc;
 }
 
 
@@ -1774,7 +1775,7 @@ background-color: #FFFFFF;
 ====================================== */
 .client-sec{
     /*background: url("../../portfolio/img/clients-banner.jpg");*/
-    background: url("../../digital-university/img/clients-banner.jpg");
+    background: url("../../digital-university/img/shield.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1795,7 +1796,7 @@ background-color: #FFFFFF;
 }
 .client-sec .client-sec-overlay{
     opacity: 0.9;
-    background-color: #12b975;
+    background-color: #05d2fc;
     position: absolute;
     left: 0;
     right: 0;
@@ -1844,7 +1845,7 @@ background-color: #FFFFFF;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
-    color: #12b975;
+    color: #05d2fc;
 }
 .client-sec .client-container .client-detail .client-des{
     font-family: 'Roboto', sans-serif;
@@ -1898,7 +1899,7 @@ background-color: #FFFFFF;
     padding-bottom: 50px;
 }
 .contact-us-sec .contact-details .contact-sub-heading{
-    color: #12b975;
+    color: #05d2fc;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -2020,7 +2021,7 @@ background-color: #FFFFFF;
 }
 
 .footer-social li a:hover{
-    background-color:#12b975;
+    background-color:#05d2fc;
     color: #ffffff !important;
 }
 
@@ -2032,7 +2033,7 @@ background-color: #FFFFFF;
     color: #3d3d3d;
 }
 .company-about a:hover{
-    color:#12b975;
+    color:#05d2fc;
 }
 
 
@@ -2092,7 +2093,7 @@ background-color: #FFFFFF;
     font-family: 'Roboto',sans-serif;
 }
 .course-detail .course-mini-detail{
-    background-color: #12b975;
+    background-color: #05d2fc;
 }
 .course-detail .course-mini-detail .mini-course-des{
     padding: 30px 15px;
@@ -2152,7 +2153,7 @@ background-color: #FFFFFF;
     font-family: 'Roboto',sans-serif;
 }
 .course-detail .course-detail-box .sub-heading{
-    color: #12b975;
+    color: #05d2fc;
     font-weight: 500;
 }
 .course-detail .course-detail-box .main-heading-detail{
@@ -2164,7 +2165,7 @@ background-color: #FFFFFF;
     font-size: 40px;
 }
 .blue-color{
-    color: #12b975;
+    color: #05d2fc;
 }
 .course-detail .course-detail-box .text{
     color: #3d3d3d;
@@ -2192,7 +2193,7 @@ background-color: #FFFFFF;
     text-decoration: none;
 }
 .course-detail .course-accordion .btn-link:hover h2{
-    color: #12b975;
+    color: #05d2fc;
 }
 .course-detail .course-accordion .card-body{
     border-top: solid 1px #eee;
@@ -2242,7 +2243,7 @@ background-color: #FFFFFF;
     text-decoration: none;
 }
 .crumbs .breadcrumb li a:hover{
-    color: #12b975;
+    color: #05d2fc;
 }
 /*crumbs end*/
 
@@ -2258,11 +2259,11 @@ background-color: #FFFFFF;
     padding-right: 30px;
 }
 .standalone-detail .sub-heading{
-    color: #12b975;
+    color: #05d2fc;
     margin-bottom: 20px;
 }
 .standalone-area .sub-heading{
-    color: #12b975;
+    color: #05d2fc;
     margin-bottom: 8px;
 }
 .standalone-detail .heading{
